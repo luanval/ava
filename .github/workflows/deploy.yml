@@ -24,7 +24,7 @@ permissions:
             - name: Criar artefato para deploy
             uses: actions/upload-pages-artifact@v3 # Pode tentar também @v2 se funcionar
             with:
-              path: ./desktop/aaa/index.html
+              path: .github/workflows/index.html
             - name: Publicar no GH Pages
             uses: actions/deploy-pages@v4
               
