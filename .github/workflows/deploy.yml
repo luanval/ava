@@ -18,6 +18,6 @@ jobs:
       - name: Criar artefato para deploy
         uses: actions/upload-pages-artifact@v3
         with:
-          path: index.html
+          path: ../index.html
       - name: Publicar no GH Pages
         uses: actions/deploy-pages@v4
